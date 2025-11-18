@@ -205,14 +205,14 @@ anyhow = "1"
 built = { version = "0.8", features = ["git2", "chrono"] }
 llvm-tools = "0.1"
 
-[workspace]
-members = [
-	"hermit-macro",
-	"xtask",
-]
-exclude = [
-	"hermit-builtins",
-]
+#[workspace]
+# members = [
+# 	"hermit-macro",
+# 	"xtask",
+# ]
+# exclude = [
+# 	"hermit-builtins",
+# ]
 
 [patch.crates-io]
 x86_64 = { git = "https://github.com/rust-osdev/x86_64.git" }
